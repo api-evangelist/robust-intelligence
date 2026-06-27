@@ -3,13 +3,10 @@
   "feeds": [
     {
       "source": "https://www.robustintelligence.com/blog",
-      "error": "URLError"
-    },
-    {
-      "source": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2024/m08/cisco-announces-intent-to-acquire-robust-intelligence-to-deliver-comprehensive-ai-security.html",
-      "error": "HTTPError"
+      "saved": 0,
+      "error": "connect ECONNREFUSED (host down/parked, acquired by Cisco)"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T13:06:16Z"
 }
