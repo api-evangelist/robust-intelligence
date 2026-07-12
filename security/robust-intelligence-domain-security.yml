@@ -1,0 +1,29 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.robustintelligence.com
+  https: false
+- host: www.cisco.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov  9 01:46:22 2026 GMT
+  hsts: null
+domains:
+- domain: robustintelligence.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
+- domain: cisco.com
+  dnssec: false
+  caa:
+  - 0 issue "globalsign.com"
+  - 128 issuewild "identrust.com"
+  - 0 issue "digicert.com"
+  - 0 issue "pki.goog"
+  - 128 iodef "mailto:infosec@cisco.com"
+  - 128 issuewild "digicert.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

@@ -64,6 +64,8 @@ apis:
     models, generating attacks across data, model, and prompt layers and producing risk reports for security and ML teams.
     Capabilities now delivered through Cisco AI Defense.
 common:
+- type: DomainSecurity
+  url: security/robust-intelligence-domain-security.yml
 - type: Website
   url: https://www.robustintelligence.com/
 - type: CiscoProduct
