@@ -30,7 +30,7 @@ description: Robust Intelligence is an AI security company founded in 2019 to de
   capabilities integrated into Cisco's broader security portfolio.
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: robust-intelligence:cisco-ai-defense
   name: Cisco AI Defense
